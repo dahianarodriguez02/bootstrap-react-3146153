@@ -1,54 +1,61 @@
- //vamos a importar los estilos y el componente InfoCard
- 
- import { InfoCard } from "./components/InfoCard" 
- import { UseCard } from "./components/Use.Card"
- import "./App.css"
- import { listaPeliculas } from "./components/listapeliculas"
- 
- export function App () {
+import React from 'react'
+import "./App.css"
+import { NavBar } from './components/NavBar'
+import { ExtensionCard } from './components/ExtensionCard'
 
+export const App = () => {
   return (
-
-    <div>
-          <h1>App</h1>
-          <InfoCard/>
-          <UseCard 
-          image="https://rickandmortyapi.com/api/character/avatar/406.jpeg" 
-          userName= "pepe"
-         
-         />
-           <UseCard 
-          image="https://rickandmortyapi.com/api/character/avatar/130.jpeg" 
-          userName= "pepe"
-          
-          
-          />
-          <UseCard 
-          image="https://rickandmortyapi.com/api/character/avatar/677.jpeg" 
-          userName= "pepe"
-          
-          
-          />
-           <UseCard 
-          image="https://rickandmortyapi.com/api/character/avatar/502.jpeg" 
-          userName= "pepe"
-          />
-
-        <listaPeliculas
-         image="https://i.postimg.cc/43LQvVpb/a-dos-metros-de-ti.jpg" 
-          nombrePelicula="a dos metros de ti"
-          descripcion="película romántica que cuenta la historia de Stella y Will, dos adolescentes con fibrosis quísiticas que se enamoran "
-        
-        
-        />
-         
-                          
-         
-
-
+    <>
+    <NavBar/>
+    <div className="containerCards">
+      <ExtensionCard 
+      cardTitle="DevLens" 
+      cardImage="./public/logo-devlens.svg" 
+      cardDescription="Quickly inspect page layouts and wisualize element boundaries"
+      />
+      <ExtensionCard 
+      cardTitle="StyleSpy" 
+      cardImage="./public/logo-style-spy.svg" 
+      cardDescription="Instantly analyze and copy CSS from any webpage element"
+      />
+      <ExtensionCard 
+      cardTitle="SpeedBoost" 
+      cardImage="./public/logo-speed-boost.svg" 
+      cardDescription="Optimizes browser resource usage to accelerate page loading"
+      />
+      <ExtensionCard 
+      cardTitle="JSONWizard" 
+      cardImage="./public/logo-json-wizard.svg" 
+      cardDescription="Formats, validates, and prettifies JSON responses in-browser"
+      />
+      <ExtensionCard 
+      cardTitle="TahMaster Pro" 
+      cardImage="./public/logo-tab-master-pro.svg"  
+      cardDescription="Organizes browser tabs into groups and sessions"
+      />
+      <ExtensionCard 
+      cardTitle="ViewportBuddy" 
+      cardImage="./public/logo-viewport-buddy.svg"  
+      cardDescription="Simulates various screen resolutions directly within the browser"
+      />
+      <ExtensionCard 
+      cardTitle="Markun Notes" 
+      cardImage="./public/logo-markup-notes.svg"  
+      cardDescription="Enables annotation and notes directly onto webpages for collaborative debugging"
+      />
+      <ExtensionCard 
+      cardTitle="GridGuides" 
+      cardImage="./public/logo-grid-guides.svg"  
+      cardDescription="Overlay customizable grids and alignment guides on any webpage."
+      />
+      <ExtensionCard 
+      cardTitle="Palette Picker" 
+      cardImage="./public/logo-palette-picker.svg" 
+      cardDescription="20 Instantly extract color pareste strany webpage."
+      />
 
     </div>
+    
+    </>
   )
 }
-
-
