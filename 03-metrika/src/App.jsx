@@ -9,6 +9,9 @@ export  function App() {
   return (
    <>
    <NavBar/>
+   < SectionCard/>
+   
+
    </>
   )
 }
