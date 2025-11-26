@@ -1,14 +1,14 @@
-import React from 'react'
+
 import "../Styles/NavBar.css"
 
 export const NavBar = () => {
   return (
-     <header className="navbar-wrapper">
+     <header className="navbar-wrapper bg-info-subtle d-flex align-items-center " style={{width:"100%",height: "160px", }}>
       <nav className="container d-flex justify-content-between align-items-center">
         
        
         <div className="d-flex gap-4 align-items-center ms-auto">
-          <a href="#" className="nav-link-custom">Conoce el cómic</a>
+          <a href="#" className="nav-link-custom ">Conoce el cómic</a>
           <a href="#" className="nav-link-custom">Conoce GlitchVerse</a>
         </div>
 
