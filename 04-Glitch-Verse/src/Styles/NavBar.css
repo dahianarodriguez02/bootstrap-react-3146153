@@ -1,20 +1,23 @@
-.navbar-wrapper {
-  clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 100%, 30% 100%, 0 70%);
-}
-
-/* Ajusta Bootstrap a toda la altura */
-.navbar-wrapper nav {
-  width: 100%;
+/* GRID para centrar el logo */
+.nav-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* izquierda | centro | derecha */
+  align-items: center;
   height: 100%;
-  display: flex;
-  justify-content: space-between
-  
 }
 
-/* Logo en tamaño correcto */
+/* Centro perfecto para el logo */
+.nav-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Asegura proporción del logo */
 .logo-img {
   width: 180px;
   display: block;
+  margin-right: -130px;
 }
 
 /* Enlaces */
