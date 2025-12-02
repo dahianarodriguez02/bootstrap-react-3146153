@@ -16,15 +16,12 @@ export const NavBar = () => {
 
         {/* CENTRO */}
         <div className="nav-center">
-          <img 
-            src="./logo.png"
-            alt="GlitchVerse"
-            className="logo-img"
+          <img  src="./logo.png" alt="GlitchVerse" className="logo-img"
           />
         </div>
 
         {/* DERECHA */}
-        <div className="nav-right d-flex gap-3 align-items-center">
+        <div className="iconos">
           <i className="bi bi-search nav-icon"></i>
           <i className="bi bi-cart3 nav-icon"></i>
         </div>

@@ -7,11 +7,11 @@
 }
 
 /* Centro perfecto para el logo */
-.nav-center {
+/* .nav-center {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* Asegura proporción del logo */
 .logo-img {
@@ -19,7 +19,10 @@
   display: block;
   margin-right: -130px;
 }
-
+.iconos{
+      width: 100%;
+    margin-left: 638px;
+}
 /* Enlaces */
 .nav-link-custom {
   color: #000;

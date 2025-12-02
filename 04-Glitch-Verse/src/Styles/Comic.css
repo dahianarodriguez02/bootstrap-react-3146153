@@ -1,8 +1,34 @@
-.titulo{
+
+.titulos{
     margin-top: 1rem;
+    margin-left: 37rem;
+    text-decoration: none;
+     font-size: 2rem;
+     color: #016C6A;
+     gap: 10rem;
 }
 
 
+
 .parrafo{
-    margin-top: 1rem;
+    margin-top: 1rem; 
+     text-decoration: none; 
+     font-size: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.seccion-comic{
+    background-color: #A5D9C3;
+    height: 35rem
+}
+
+.h1{
+ 
+
+}
+
+.parrafo-2{
+    font-size: 1rem;
 }
