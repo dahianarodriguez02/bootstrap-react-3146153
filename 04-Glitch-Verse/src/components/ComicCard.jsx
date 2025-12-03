@@ -15,13 +15,14 @@ export const ComicCard = () => {
           </div>
 
           <div className='seccion-comic'>
-            <h1>CONOCE EL CÓMIC</h1>
-            <button>Historia del cómic</button>
+            <h1 className='comic'>CONOCE EL CÓMIC</h1>
+            <button className='historia'>Historia del cómic</button>
             <h1></h1>
-            <img src="" alt="" />
+            <img src="../public/glicht.png" alt="" />
             <h1 className='parrafo-2'>Matrix es una historia basada en un mundo siendo controlada por la tecnologia, mostrando como la manipulación tecnologica puede llegar
                a ser nuestro mayor destructor. En cada una de las fases Matrix muestra como Chappie un
                 Robot que fue hecho para dominar, ve lo que hace la tecnología y no esta bien. Noah y Emma buscan una solución para que el mundo no se acabe.</h1>
+                <img className='comic12' src ="" alt="" />
           </div>
     </div>
   )

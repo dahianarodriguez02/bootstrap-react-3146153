@@ -1,8 +1,8 @@
 
 .titulos{
-    margin-top: 1rem;
-    margin-left: 37rem;
-    text-decoration: none;
+     margin-top: 1rem;
+     margin-left: 37rem;
+     text-decoration: none;
      font-size: 2rem;
      color: #016C6A;
      gap: 10rem;
@@ -11,7 +11,7 @@
 
 
 .parrafo{
-    margin-top: 1rem; 
+     margin-top: 1rem; 
      text-decoration: none; 
      font-size: 1rem;
      display: flex;
@@ -21,14 +21,47 @@
 
 .seccion-comic{
     background-color: #A5D9C3;
-    height: 35rem
+    height: 42rem;
+    margin-top: 99px;
+    
+    
+
 }
 
-.h1{
- 
+.comic{
+     font-size:26px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 130px
+
 
 }
 
+
+.historia{
+    margin-left: 876px;
+    background-color: #B8D1E6;
+    width: 16rem;
+    height: 4rem;
+    margin-left: 46rem
+     
+}
 .parrafo-2{
     font-size: 1rem;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 15rem;
+    height: 7rem;
+    margin-top: -17rem;
+    margin-left: 47rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.seccion-comic img{
+      width: 14rem;
+    margin-top: -6rem;
+    margin-left: 17rem;
+
 }
