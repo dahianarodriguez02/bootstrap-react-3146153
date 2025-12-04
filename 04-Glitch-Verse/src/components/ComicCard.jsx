@@ -24,6 +24,28 @@ export const ComicCard = () => {
                 Robot que fue hecho para dominar, ve lo que hace la tecnología y no esta bien. Noah y Emma buscan una solución para que el mundo no se acabe.</h1>
                 <img className='comic12' src ="" alt="" />
           </div>
+          <div>
+            <button className='fotos  xd-inline-flex p-2 d-flex flex-row mb-3 align-items-start'>Personajes</button>
+           <div>
+            <img className='Chapie"' src="../public/Chapie.png" alt="" />
+            <h1 className='parrafo-3'>Es un Robot que fue hecho para controlar y gobernar el mundo.</h1>
+           </div>
+
+            <div>
+            <img className='Noah' src="../public/Noah.png" alt="" />
+            <h1 className='parrafo-4'>Un trabajador de TECO, la mayor empresa de tecnologia que le gustaba la tecnología hasta que supo de sus concecuencias.</h1>
+           </div>
+            
+             <div>
+            <img className='Emma' src="../public/Emma.png" alt="" />
+            <h1 className='parrafo-5'>Una estudiante Universitaria que se va a enterar sobre las concecuencias del mal uso de la tecnología y tratará de resolverlo.</h1>
+           </div>
+
+
+            
+
+
+          </div>
     </div>
   )
 }

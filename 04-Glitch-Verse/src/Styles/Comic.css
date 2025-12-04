@@ -65,3 +65,55 @@
     margin-left: 17rem;
 
 }
+
+.fotos{
+    display: flex;
+    width: 14rem;
+    margin-left: 32rem;
+    height: 4rem;
+    margin-top: 7rem;
+    background-color: #B8D1E6;
+}
+
+
+
+.Chapie{
+    width: 17rem;
+    height: 8rem;
+  
+
+}
+
+.Noah{
+  width: 29rem;
+    height: 23rem
+    
+
+}
+
+.Emma{
+    width: 25rem;
+    height: 17rem;
+
+
+}
+
+.parrafo-3{
+    font-size: 2rem;
+    font-family: seri
+    
+
+}
+
+.parrafo-4{
+    font-size: 2rem;
+    font-family: seri
+
+}
+
+.parrafo-5{
+    font-size: 2rem;
+    font-family: seri
+
+   
+}
