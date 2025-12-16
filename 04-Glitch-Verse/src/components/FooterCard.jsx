@@ -19,11 +19,13 @@ export const FooterCard = () => {
             alt="Instagram"
             style={{ width: "60px", height: "60px" }}
           />
+         
 
           <img
             src="/public/facebook.png"
             alt="Facebook"
             style={{ width: "60px", height: "60px" }}
+            
           />
 
           <img
